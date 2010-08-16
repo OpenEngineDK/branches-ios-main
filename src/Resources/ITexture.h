@@ -56,7 +56,7 @@ namespace OpenEngine {
          */
         class ITexture : public ISerializable {
         protected:
-            unsigned int id;
+            unsigned int texid;
             unsigned char channels;
             Types::Type type;
             ColorFormat format;
@@ -131,7 +131,7 @@ namespace OpenEngine {
 
         public:
             ITexture() {
-                id = channels = 0;
+                texid = channels = 0;
                 data = NULL;
                 mipmapping = true;
                 compression = false;
@@ -150,14 +150,14 @@ namespace OpenEngine {
              *
              * @return Texture id.
              */
-            inline unsigned int GetID() const { return id; }
+            inline unsigned int GetID() const { return texid; }
             
             /**
              * Set texture id.
              *
              * @param id Texture id.
              */
-            virtual void SetID(int id) { this->id = id; }
+            virtual void SetID(int id) { this->texid = texid; }
             
             /**
              * Get the size of each channel on the loaded texture.

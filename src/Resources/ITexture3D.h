@@ -87,7 +87,7 @@ namespace OpenEngine {
              * effect if the texture hasn't been bound.
              */
             inline void SetUseCase(TextureUseCase u) {
-                if (id == 0)
+                if (texid == 0)
                     useCase = u;
             }
         };
