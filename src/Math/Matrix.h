@@ -94,7 +94,7 @@ public:
     Matrix(const T a, const T b, const T c, 
            const T d, const T e, const T f, 
            const T g, const T h, const T i) {
-        BOOST_STATIC_ASSERT(M==3 && N==3);
+        //BOOST_STATIC_ASSERT(M==3 && N==3);
         elm[0][0]=a; elm[0][1]=b; elm[0][2]=c;
         elm[1][0]=d; elm[1][1]=e; elm[1][2]=f;
         elm[2][0]=g; elm[2][1]=h; elm[2][2]=i;
@@ -318,7 +318,7 @@ public:
      * NOTE: Only works on 3*3 matrices.
      */
     Matrix <M,N,T> GetTranspose() {
-        BOOST_STATIC_ASSERT(M==N&&M==3);
+        //BOOST_STATIC_ASSERT(M==N&&M==3);
         return Matrix<M,N,T>(elm[0][0],elm[1][0],elm[2][0],
                              elm[0][1],elm[1][1],elm[2][1],
                              elm[0][2],elm[1][2],elm[2][2]);

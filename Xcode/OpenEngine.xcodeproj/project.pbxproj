@@ -162,6 +162,7 @@
 		3152ECE11217FE5D00786F4E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1006BDE701006BDE701006BD /* main.cpp */; };
 		31AAC1A8121867B600C9EF35 /* OpenGLES2Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31AAC1A7121867B600C9EF35 /* OpenGLES2Shader.cpp */; };
 		31AAC1B9121868A500C9EF35 /* libOpenEngine_Resources.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 101103420101103420101103 /* libOpenEngine_Resources.a */; };
+		31AD22E4121B0E2C00D237F1 /* libOpenEngine_Display.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 101039770101039770101039 /* libOpenEngine_Display.a */; };
 		31B0695912181768009F6671 /* libOpenEngine_Logging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 101081410101081410101081 /* libOpenEngine_Logging.a */; };
 		31B0695C12181770009F6671 /* libExtensions_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10066C2D010066C2D010066C /* libExtensions_iOS.a */; };
 		31B0695F12181775009F6671 /* libOpenEngine_Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1006F22801006F22801006F2 /* libOpenEngine_Core.a */; };
@@ -301,6 +302,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1010F0CC01010F0CC01010F0;
 			remoteInfo = OpenEngine_Resources;
+		};
+		31AD22E5121B0E3000D237F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100604890100604890100604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10102B09010102B09010102B /* OpenEngine_Display */;
+			remoteInfo = OpenEngine_Display;
 		};
 		31B069531218173F009F6671 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -656,6 +664,7 @@
 				31CB9EB612187F1F004DCFD8 /* libExtensions_AccelerationStructures.a in Frameworks */,
 				31CB9EBB12187F46004DCFD8 /* libOpenEngine_Geometry.a in Frameworks */,
 				31CB9EBE12187F6D004DCFD8 /* libOpenEngine_Math.a in Frameworks */,
+				31AD22E4121B0E2C00D237F1 /* libOpenEngine_Display.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1405,7 +1414,6 @@
 			buildConfigurationList = 10063D13010063D13010063D /* Build configuration list for PBXNativeTarget "Extensions_AccelerationStructures" */;
 			buildPhases = (
 				10063B01010063B01010063B /* Sources */,
-				10063C15010063C15010063C /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1422,7 +1430,6 @@
 			buildConfigurationList = 10065DF9010065DF9010065D /* Build configuration list for PBXNativeTarget "Extensions_iOS" */;
 			buildPhases = (
 				10065BED010065BED010065B /* Sources */,
-				10065D07010065D07010065D /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1510,7 +1517,6 @@
 			buildConfigurationList = 1006E3F801006E3F801006E3 /* Build configuration list for PBXNativeTarget "OpenEngine_Core" */;
 			buildPhases = (
 				1006E1ED01006E1ED01006E1 /* Sources */,
-				1006E2FD01006E2FD01006E2 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1542,9 +1548,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10102B56010102B56010102B /* Build configuration list for PBXNativeTarget "OpenEngine_Display" */;
 			buildPhases = (
-				101029BA0101029BA0101029 /* CMake ReRun */,
 				101029460101029460101029 /* Sources */,
-				10102A5C010102A5C010102A /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1563,7 +1567,6 @@
 			buildConfigurationList = 101058770101058770101058 /* Build configuration list for PBXNativeTarget "OpenEngine_Geometry" */;
 			buildPhases = (
 				101056650101056650101056 /* Sources */,
-				1010577D01010577D0101057 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1580,7 +1583,6 @@
 			buildConfigurationList = 101073200101073200101073 /* Build configuration list for PBXNativeTarget "OpenEngine_Logging" */;
 			buildPhases = (
 				101071160101071160101071 /* Sources */,
-				101072260101072260101072 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1596,7 +1598,6 @@
 			buildConfigurationList = 10108FC5010108FC5010108F /* Build configuration list for PBXNativeTarget "OpenEngine_Math" */;
 			buildPhases = (
 				10108DB8010108DB8010108D /* Sources */,
-				10108ECA010108ECA010108E /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1631,7 +1632,6 @@
 			buildConfigurationList = 1010BD5B01010BD5B01010BD /* Build configuration list for PBXNativeTarget "OpenEngine_Renderers" */;
 			buildPhases = (
 				1010BB4E01010BB4E01010BB /* Sources */,
-				1010BC6001010BC6001010BC /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1648,7 +1648,6 @@
 			buildConfigurationList = 1010F11A01010F11A01010F1 /* Build configuration list for PBXNativeTarget "OpenEngine_Resources" */;
 			buildPhases = (
 				1010EF0701010EF0701010EF /* Sources */,
-				1010F01F01010F01F01010F0 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1665,7 +1664,6 @@
 			buildConfigurationList = 101131AC0101131AC0101131 /* Build configuration list for PBXNativeTarget "OpenEngine_Scene" */;
 			buildPhases = (
 				10112F91010112F91010112F /* Sources */,
-				101130B10101130B10101130 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1685,7 +1683,6 @@
 			buildConfigurationList = 101151460101151460101151 /* Build configuration list for PBXNativeTarget "OpenEngine_Utils" */;
 			buildPhases = (
 				10114F37010114F37010114F /* Sources */,
-				1011504B01011504B0101150 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1716,6 +1713,7 @@
 				31CB9EB512187F1C004DCFD8 /* PBXTargetDependency */,
 				31CB9EBA12187F42004DCFD8 /* PBXTargetDependency */,
 				31CB9EC012187F70004DCFD8 /* PBXTargetDependency */,
+				31AD22E6121B0E3000D237F1 /* PBXTargetDependency */,
 			);
 			name = iOEPhone;
 			productName = iOEPhone;
@@ -1843,26 +1841,6 @@
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode -f /Users/ptx/Projects/OE/OEIPhone/Xcode/CMakeScripts/doc_cmakeRulesBuildPhase.make$CONFIGURATION all";
 		};
-		10063C15010063C15010063C /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/AccelerationStructures -f /Users/ptx/Projects/OE/OEIPhone/Xcode/AccelerationStructures/CMakeScripts/Extensions_AccelerationStructures_postBuildPhase.make$CONFIGURATION all";
-		};
-		10065D07010065D07010065D /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/iOS -f /Users/ptx/Projects/OE/OEIPhone/Xcode/iOS/CMakeScripts/Extensions_iOS_postBuildPhase.make$CONFIGURATION all";
-		};
 		100674250100674250100674 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1943,16 +1921,6 @@
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/TGAResource -f /Users/ptx/Projects/OE/OEIPhone/Xcode/TGAResource/CMakeScripts/Extensions_TGAResource_postBuildPhase.make$CONFIGURATION all";
 		};
-		1006E2FD01006E2FD01006E2 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Core -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Core/CMakeScripts/OpenEngine_Core_postBuildPhase.make$CONFIGURATION all";
-		};
 		1006F80601006F80601006F8 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1973,56 +1941,6 @@
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Devices -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Devices/CMakeScripts/OpenEngine_Devices_postBuildPhase.make$CONFIGURATION all";
 		};
-		101029BA0101029BA0101029 /* CMake ReRun */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake ReRun";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode -f /Users/ptx/Projects/OE/OEIPhone/Xcode/CMakeScripts/ReRunCMake.make";
-		};
-		10102A5C010102A5C010102A /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Display -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Display/CMakeScripts/OpenEngine_Display_postBuildPhase.make$CONFIGURATION all";
-		};
-		1010577D01010577D0101057 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Geometry -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Geometry/CMakeScripts/OpenEngine_Geometry_postBuildPhase.make$CONFIGURATION all";
-		};
-		101072260101072260101072 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Logging -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Logging/CMakeScripts/OpenEngine_Logging_postBuildPhase.make$CONFIGURATION all";
-		};
-		10108ECA010108ECA010108E /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Math -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Math/CMakeScripts/OpenEngine_Math_postBuildPhase.make$CONFIGURATION all";
-		};
 		1010A1DE01010A1DE01010A1 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2042,46 +1960,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Meta -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Meta/CMakeScripts/OpenEngine_Meta_postBuildPhase.make$CONFIGURATION all";
-		};
-		1010BC6001010BC6001010BC /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Renderers -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Renderers/CMakeScripts/OpenEngine_Renderers_postBuildPhase.make$CONFIGURATION all";
-		};
-		1010F01F01010F01F01010F0 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Resources -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Resources/CMakeScripts/OpenEngine_Resources_postBuildPhase.make$CONFIGURATION all";
-		};
-		101130B10101130B10101130 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Scene -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Scene/CMakeScripts/OpenEngine_Scene_postBuildPhase.make$CONFIGURATION all";
-		};
-		1011504B01011504B0101150 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Utils -f /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Utils/CMakeScripts/OpenEngine_Utils_postBuildPhase.make$CONFIGURATION all";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2405,6 +2283,11 @@
 			isa = PBXTargetDependency;
 			target = 1010F0CC01010F0CC01010F0 /* OpenEngine_Resources */;
 			targetProxy = 31AAC1BA121868AC00C9EF35 /* PBXContainerItemProxy */;
+		};
+		31AD22E6121B0E3000D237F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10102B09010102B09010102B /* OpenEngine_Display */;
+			targetProxy = 31AD22E5121B0E3000D237F1 /* PBXContainerItemProxy */;
 		};
 		31B069541218173F009F6671 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4455,7 +4338,6 @@
 		10102BAB010102BAB010102B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Display/Debug;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -4489,7 +4371,6 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = OpenEngine_Display;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Display;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",

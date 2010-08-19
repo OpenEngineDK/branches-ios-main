@@ -214,10 +214,10 @@ namespace OpenEngine {
         /**
          * Define special index block.
          */
-        class Indices : public DataBlock<1, unsigned int> {
+        class Indices : public DataBlock<1, unsigned short> {
         public:
-            Indices(unsigned int s = 0, unsigned int* d = NULL)
-                : DataBlock<1, unsigned int>(s, d, INDEX_ARRAY) {
+            Indices(unsigned int s = 0, unsigned short* d = NULL)
+                : DataBlock<1, unsigned short>(s, d, INDEX_ARRAY) {
             }
         };
         typedef boost::shared_ptr<Indices> IndicesPtr;
