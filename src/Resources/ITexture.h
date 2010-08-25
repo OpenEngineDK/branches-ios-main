@@ -157,7 +157,7 @@ namespace OpenEngine {
              *
              * @param id Texture id.
              */
-            virtual void SetID(int id) { this->texid = texid; }
+            virtual void SetID(int texid) { this->texid = texid; }
             
             /**
              * Get the size of each channel on the loaded texture.

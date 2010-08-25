@@ -68,8 +68,7 @@
 		100639830100639830100639 /* AcceleratedRenderingView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100639010100639010100639 /* AcceleratedRenderingView.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		10064D97010064D97010064D /* iOSEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10064CE6010064CE6010064C /* iOSEngine.mm */; settings = {COMPILER_FLAGS = ""; }; };
 		10064F94010064F94010064F /* OEDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10064EE2010064EE2010064E /* OEDelegate.mm */; settings = {COMPILER_FLAGS = ""; }; };
-		100651A30100651A30100651 /* OEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100650E40100650E40100650 /* OEViewController.m */; settings = {COMPILER_FLAGS = ""; }; };
-		100653990100653990100653 /* OEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 100652E90100652E90100652 /* OEView.m */; settings = {COMPILER_FLAGS = ""; }; };
+		100653990100653990100653 /* OEView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 100652E90100652E90100652 /* OEView.mm */; settings = {COMPILER_FLAGS = ""; }; };
 		100655A20100655A20100655 /* iOSEnvironment.mm in Sources */ = {isa = PBXBuildFile; fileRef = 100654EA0100654EA0100654 /* iOSEnvironment.mm */; settings = {COMPILER_FLAGS = ""; }; };
 		1006579F01006579F0100657 /* iOSFrame.mm in Sources */ = {isa = PBXBuildFile; fileRef = 100656EE0100656EE0100656 /* iOSFrame.mm */; settings = {COMPILER_FLAGS = ""; }; };
 		100658A30100658A30100658 /* RenderingView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100657EC0100657EC0100657 /* RenderingView.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -78,7 +77,6 @@
 		10066D7A010066D7A010066D /* IRCClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10066CCA010066CCA010066C /* IRCClient.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		10066F72010066F72010066F /* IRCChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10066EC0010066EC0010066E /* IRCChannel.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		1006716C01006716C0100671 /* IRCLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100670BE0100670BE0100670 /* IRCLogger.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		100685470100685470100685 /* OBJResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100684940100684940100684 /* OBJResource.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		100698FC0100698FC0100698 /* TCPSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100698470100698470100698 /* TCPSocket.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		1006ABD901006ABD901006AB /* TGAResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1006AB2801006AB2801006AB /* TGAResource.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		1006D0F101006D0F101006D0 /* Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1006D04601006D04601006D0 /* Core.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -159,6 +157,11 @@
 		101147F20101147F20101147 /* DateTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1011473E01011473E0101147 /* DateTime.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		101149EC0101149EC0101149 /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1011493E01011493E0101149 /* Statistics.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		10114CF2010114CF2010114C /* EventProfiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10114C42010114C42010114C /* EventProfiler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3145C8B11222AC460066AB32 /* OBJResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3145C8AF1222AC460066AB32 /* OBJResource.cpp */; };
+		3145C8BA1222AC930066AB32 /* libExtensions_OBJResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 100696A40100696A40100696 /* libExtensions_OBJResource.a */; };
+		3145C8DD1222ADD10066AB32 /* FutureTank in Resources */ = {isa = PBXBuildFile; fileRef = 3145C8D61222ADD10066AB32 /* FutureTank */; };
+		3145C8F51222AEBD0066AB32 /* libExtensions_TGAResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1006BD3701006BD3701006BD /* libExtensions_TGAResource.a */; };
+		3145C92E1222B0260066AB32 /* libOpenEngine_Renderers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1010CB8B01010CB8B01010CB /* libOpenEngine_Renderers.a */; };
 		3152ECE11217FE5D00786F4E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1006BDE701006BDE701006BD /* main.cpp */; };
 		31AAC1A8121867B600C9EF35 /* OpenGLES2Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31AAC1A7121867B600C9EF35 /* OpenGLES2Shader.cpp */; };
 		31AAC1B9121868A500C9EF35 /* libOpenEngine_Resources.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 101103420101103420101103 /* libOpenEngine_Resources.a */; };
@@ -174,6 +177,12 @@
 		31CB9EB612187F1F004DCFD8 /* libExtensions_AccelerationStructures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10064B41010064B41010064B /* libExtensions_AccelerationStructures.a */; };
 		31CB9EBB12187F46004DCFD8 /* libOpenEngine_Geometry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 101066A70101066A70101066 /* libOpenEngine_Geometry.a */; };
 		31CB9EBE12187F6D004DCFD8 /* libOpenEngine_Math.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10109DF5010109DF5010109D /* libOpenEngine_Math.a */; };
+		31D34756122151F800106C84 /* iOSTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D34755122151F800106C84 /* iOSTouch.cpp */; };
+		31D34A5E1221716400106C84 /* MeshCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D34A561221716400106C84 /* MeshCreator.cpp */; };
+		31D34A5F1221716400106C84 /* MeshSimplifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D34A581221716400106C84 /* MeshSimplifier.cpp */; };
+		31D34A601221716400106C84 /* MeshTransformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D34A5A1221716400106C84 /* MeshTransformer.cpp */; };
+		31D34A611221716400106C84 /* MeshUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D34A5C1221716400106C84 /* MeshUtils.cpp */; };
+		31D34A741221721900106C84 /* libExtensions_MeshUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D34A0F1221710700106C84 /* libExtensions_MeshUtils.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -296,6 +305,27 @@
 			remoteGlobalIDString = 1010BD0D01010BD0D01010BD;
 			remoteInfo = OpenEngine_Renderers;
 		};
+		3145C8B21222AC5A0066AB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100604890100604890100604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100688360100688360100688;
+			remoteInfo = Extensions_OBJResource;
+		};
+		3145C8F31222AEB90066AB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100604890100604890100604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1006AEC901006AEC901006AE;
+			remoteInfo = Extensions_TGAResource;
+		};
+		3145C92C1222B0220066AB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100604890100604890100604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1010BD0D01010BD0D01010BD;
+			remoteInfo = OpenEngine_Renderers;
+		};
 		31AAC1BA121868AC00C9EF35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 100604890100604890100604 /* Project object */;
@@ -307,7 +337,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 100604890100604890100604 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 10102B09010102B09010102B /* OpenEngine_Display */;
+			remoteGlobalIDString = 10102B09010102B09010102B;
 			remoteInfo = OpenEngine_Display;
 		};
 		31B069531218173F009F6671 /* PBXContainerItemProxy */ = {
@@ -373,6 +403,13 @@
 			remoteGlobalIDString = 10108F77010108F77010108F;
 			remoteInfo = OpenEngine_Math;
 		};
+		31D34A621221717000106C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100604890100604890100604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31D34A051221710700106C84;
+			remoteInfo = Extensions_MeshUtils;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -390,9 +427,8 @@
 		10064DE3010064DE3010064D /* OEDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEDelegate.h; path = extensions/iOS/Core/OEDelegate.h; sourceTree = SOURCE_ROOT; };
 		10064EE2010064EE2010064E /* OEDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OEDelegate.mm; path = extensions/iOS/Core/OEDelegate.mm; sourceTree = SOURCE_ROOT; };
 		10064FE1010064FE1010064F /* OEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEViewController.h; path = extensions/iOS/Display/OEViewController.h; sourceTree = SOURCE_ROOT; };
-		100650E40100650E40100650 /* OEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OEViewController.m; path = extensions/iOS/Display/OEViewController.m; sourceTree = SOURCE_ROOT; };
 		100651E90100651E90100651 /* OEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEView.h; path = extensions/iOS/Display/OEView.h; sourceTree = SOURCE_ROOT; };
-		100652E90100652E90100652 /* OEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OEView.m; path = extensions/iOS/Display/OEView.m; sourceTree = SOURCE_ROOT; };
+		100652E90100652E90100652 /* OEView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OEView.mm; path = extensions/iOS/Display/OEView.mm; sourceTree = "<group>"; };
 		100653E50100653E50100653 /* iOSEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSEnvironment.h; path = extensions/iOS/Display/iOSEnvironment.h; sourceTree = SOURCE_ROOT; };
 		100654EA0100654EA0100654 /* iOSEnvironment.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iOSEnvironment.mm; path = extensions/iOS/Display/iOSEnvironment.mm; sourceTree = "<group>"; };
 		100655EE0100655EE0100655 /* iOSFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSFrame.h; path = extensions/iOS/Display/iOSFrame.h; sourceTree = SOURCE_ROOT; };
@@ -410,8 +446,6 @@
 		100671BE0100671BE0100671 /* IRCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRCLogger.h; path = extensions/IRC/Logging/IRCLogger.h; sourceTree = SOURCE_ROOT; };
 		100672BE0100672BE0100672 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = extensions/IRC/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		100683ED0100683ED0100683 /* libExtensions_IRC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libExtensions_IRC.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		100684940100684940100684 /* OBJResource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OBJResource.cpp; path = extensions/OBJResource/Resources/OBJResource.cpp; sourceTree = SOURCE_ROOT; };
-		1006858D01006858D0100685 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = extensions/OBJResource/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		100696A40100696A40100696 /* libExtensions_OBJResource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libExtensions_OBJResource.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1006974C01006974C0100697 /* TCPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPSocket.h; path = extensions/Sockets/Network/TCPSocket.h; sourceTree = SOURCE_ROOT; };
 		100698470100698470100698 /* TCPSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TCPSocket.cpp; path = extensions/Sockets/Network/TCPSocket.cpp; sourceTree = SOURCE_ROOT; };
@@ -642,12 +676,124 @@
 		10114D3E010114D3E010114D /* SelectionSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectionSet.h; path = src/Utils/SelectionSet.h; sourceTree = SOURCE_ROOT; };
 		10114E37010114E37010114E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/Utils/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		10115F76010115F76010115F /* libOpenEngine_Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOpenEngine_Utils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3145C87F1222AC460066AB32 /* format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = format; sourceTree = "<group>"; };
+		3145C8801222AC460066AB32 /* hashed_inventory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hashed_inventory; sourceTree = "<group>"; };
+		3145C8821222AC460066AB32 /* 0000003230-4c13dc16e85eea7f4db4dcf64a952f237cb366539f8236935a793590356ffb42 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000003230-4c13dc16e85eea7f4db4dcf64a952f237cb366539f8236935a793590356ffb42"; sourceTree = "<group>"; };
+		3145C8841222AC460066AB32 /* 0000000109-c55634291589a46b5d8ed7db14485a5d74c3d7d4b4ad2a2e7c5276e3837b08e7 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000109-c55634291589a46b5d8ed7db14485a5d74c3d7d4b4ad2a2e7c5276e3837b08e7"; sourceTree = "<group>"; };
+		3145C8851222AC460066AB32 /* 0000000145-a7a957b69ec49281f40eff89080394f2bb0cb90f96e4c6717de73c8bd77e81a7 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000145-a7a957b69ec49281f40eff89080394f2bb0cb90f96e4c6717de73c8bd77e81a7"; sourceTree = "<group>"; };
+		3145C8861222AC460066AB32 /* 0000000146-78075db153ea8f8434d36aa08f26c67eb65e247944ddb646147e7ce464999fc0 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000146-78075db153ea8f8434d36aa08f26c67eb65e247944ddb646147e7ce464999fc0"; sourceTree = "<group>"; };
+		3145C8871222AC460066AB32 /* 0000000148-bcd95074f6db9c8b6e2fbf94d78078dd1bb3080c0703f4d93981ca5eec9b611c */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000148-bcd95074f6db9c8b6e2fbf94d78078dd1bb3080c0703f4d93981ca5eec9b611c"; sourceTree = "<group>"; };
+		3145C8881222AC460066AB32 /* 0000000163-2391073d1d8c956ef3b3212d8a90035a2a4fb5a3908882f989d32dd94a1eb67a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000163-2391073d1d8c956ef3b3212d8a90035a2a4fb5a3908882f989d32dd94a1eb67a"; sourceTree = "<group>"; };
+		3145C8891222AC460066AB32 /* 0000000268-0505a284d2e4132179e0a8759f261257727d0abc76de56ec54e7ecf9c6e99bfd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000268-0505a284d2e4132179e0a8759f261257727d0abc76de56ec54e7ecf9c6e99bfd"; sourceTree = "<group>"; };
+		3145C88A1222AC460066AB32 /* 0000000308-bfc13a92075adeed75a0b1e4a2c35a97c0f135bc20e8ffa8a82191ae19270b1a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000308-bfc13a92075adeed75a0b1e4a2c35a97c0f135bc20e8ffa8a82191ae19270b1a"; sourceTree = "<group>"; };
+		3145C88B1222AC460066AB32 /* 0000000337-682e9638bd662bca43e7b82e831f0bfe0b13fa1d82fa1e8a437b1ebc567e2552 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000337-682e9638bd662bca43e7b82e831f0bfe0b13fa1d82fa1e8a437b1ebc567e2552"; sourceTree = "<group>"; };
+		3145C88C1222AC460066AB32 /* 0000000352-6b7cb9249fe5e5c700e3f5666a6e91bf6ef7f8373a18bceb25d44d88e12a6210 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000352-6b7cb9249fe5e5c700e3f5666a6e91bf6ef7f8373a18bceb25d44d88e12a6210"; sourceTree = "<group>"; };
+		3145C88D1222AC460066AB32 /* 0000000388-3a621cef8f6827cdcdf57b82401e8a25beae24fc8bd73ab6313d80a670738707 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000388-3a621cef8f6827cdcdf57b82401e8a25beae24fc8bd73ab6313d80a670738707"; sourceTree = "<group>"; };
+		3145C88E1222AC460066AB32 /* 0000000420-1a3508093baf59f5b28ac9b9e295a4c98d1849da2b9149513b6a774df1ebaee9 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000420-1a3508093baf59f5b28ac9b9e295a4c98d1849da2b9149513b6a774df1ebaee9"; sourceTree = "<group>"; };
+		3145C88F1222AC460066AB32 /* 0000000434-208128b57917f01ef5688f1f4b1e7b0fd795d2c61379b84a7b7a8b42ea6ba822 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000434-208128b57917f01ef5688f1f4b1e7b0fd795d2c61379b84a7b7a8b42ea6ba822"; sourceTree = "<group>"; };
+		3145C8901222AC460066AB32 /* 0000000442-5e07ff7f8f16527c06248728a3b4b72d22bf356904e33a85acffc0992f36d09d */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000442-5e07ff7f8f16527c06248728a3b4b72d22bf356904e33a85acffc0992f36d09d"; sourceTree = "<group>"; };
+		3145C8911222AC460066AB32 /* 0000002337-97415eb6c115dbaf645605ddf215fd7dac2247425b3502fc6b4231467364fea4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002337-97415eb6c115dbaf645605ddf215fd7dac2247425b3502fc6b4231467364fea4"; sourceTree = "<group>"; };
+		3145C8921222AC460066AB32 /* 0000002396-b9098a713c41f81a0b9b6f1237ff73a6682ba6619e63f56bf6cb29a943e1f21c */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002396-b9098a713c41f81a0b9b6f1237ff73a6682ba6619e63f56bf6cb29a943e1f21c"; sourceTree = "<group>"; };
+		3145C8931222AC460066AB32 /* 0000002723-55a78ab9fb63d300c252ad014334c1c3c47958149d161fcb10e45d97e505043b */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002723-55a78ab9fb63d300c252ad014334c1c3c47958149d161fcb10e45d97e505043b"; sourceTree = "<group>"; };
+		3145C8941222AC460066AB32 /* 0000003293-41787ad114137a9a37a7c980b2904e28891d536e3e6f07204c68e8a66b802233 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000003293-41787ad114137a9a37a7c980b2904e28891d536e3e6f07204c68e8a66b802233"; sourceTree = "<group>"; };
+		3145C8951222AC460066AB32 /* 0000005023-15eaacf47953e7fd09aac405201e124e7f4fdda7c543acb26091e869612df30c */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000005023-15eaacf47953e7fd09aac405201e124e7f4fdda7c543acb26091e869612df30c"; sourceTree = "<group>"; };
+		3145C8961222AC460066AB32 /* 0000012495-3bbce043e3b2b60bdf3257e9546427d1133fbae099636335d93859552de68eee */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000012495-3bbce043e3b2b60bdf3257e9546427d1133fbae099636335d93859552de68eee"; sourceTree = "<group>"; };
+		3145C8971222AC460066AB32 /* pending */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pending; sourceTree = "<group>"; };
+		3145C8981222AC460066AB32 /* pending.tentative */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pending.tentative; sourceTree = "<group>"; };
+		3145C89A1222AC460066AB32 /* binaries */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = binaries; sourceTree = "<group>"; };
+		3145C89B1222AC460066AB32 /* boring */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = boring; sourceTree = "<group>"; };
+		3145C89C1222AC460066AB32 /* defaultrepo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defaultrepo; sourceTree = "<group>"; };
+		3145C89D1222AC460066AB32 /* motd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = motd; sourceTree = "<group>"; };
+		3145C89E1222AC460066AB32 /* repos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = repos; sourceTree = "<group>"; };
+		3145C8A01222AC460066AB32 /* 0000000170-f7dac58b0141f46b8dd672b321ece971d98667382273f20c5499feea4e2c6599 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000170-f7dac58b0141f46b8dd672b321ece971d98667382273f20c5499feea4e2c6599"; sourceTree = "<group>"; };
+		3145C8A11222AC460066AB32 /* 0000000194-0f34feb6084830e26ba8440d6adaf37df09a77051a02ee5e8098f314033eeda4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000194-0f34feb6084830e26ba8440d6adaf37df09a77051a02ee5e8098f314033eeda4"; sourceTree = "<group>"; };
+		3145C8A21222AC460066AB32 /* 0000000194-4c40d385c0e54fffb0481700adcf932a450f86f8fb991ccf9109603eccda8412 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000194-4c40d385c0e54fffb0481700adcf932a450f86f8fb991ccf9109603eccda8412"; sourceTree = "<group>"; };
+		3145C8A31222AC460066AB32 /* 0000000194-65b60943a8cfa4ec55db385bd0438407dbc7598a86f070ee80b174e40d6a9c23 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000194-65b60943a8cfa4ec55db385bd0438407dbc7598a86f070ee80b174e40d6a9c23"; sourceTree = "<group>"; };
+		3145C8A41222AC460066AB32 /* 0000000194-d090450c1c0f4b759c7aca01cee742fc20f4e8aed3b720b16ff1fb0d08769308 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000194-d090450c1c0f4b759c7aca01cee742fc20f4e8aed3b720b16ff1fb0d08769308"; sourceTree = "<group>"; };
+		3145C8A51222AC460066AB32 /* 0000000256-59d7113682b2e2f289c282b53596f49598cddbba66b3487e2a6598ca02aa2ecd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000256-59d7113682b2e2f289c282b53596f49598cddbba66b3487e2a6598ca02aa2ecd"; sourceTree = "<group>"; };
+		3145C8A61222AC460066AB32 /* 0000001817-eff6e5f4c3370652edd195567d16c8e5e9501123e5e0b66fbd7ed4aa63e07fe0 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001817-eff6e5f4c3370652edd195567d16c8e5e9501123e5e0b66fbd7ed4aa63e07fe0"; sourceTree = "<group>"; };
+		3145C8A71222AC460066AB32 /* 0000001955-48bc29fb6be5228f794a3b0eba55f936ee0ac5faa9034e4ad06b18d89ca362e7 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001955-48bc29fb6be5228f794a3b0eba55f936ee0ac5faa9034e4ad06b18d89ca362e7"; sourceTree = "<group>"; };
+		3145C8A81222AC460066AB32 /* 0000009724-852ff595dd9c9434e78da1fb2f39bb4bc34a1c9706895238f8e26a6fbbb4458f */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000009724-852ff595dd9c9434e78da1fb2f39bb4bc34a1c9706895238f8e26a6fbbb4458f"; sourceTree = "<group>"; };
+		3145C8A91222AC460066AB32 /* 0000012512-c30487dcc2294c768915a0f841a8ac6eefd210b7cb46148258f695cd54b3dd9e */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000012512-c30487dcc2294c768915a0f841a8ac6eefd210b7cb46148258f695cd54b3dd9e"; sourceTree = "<group>"; };
+		3145C8AA1222AC460066AB32 /* da39a3ee5e6b4b0d3255bfef95601890afd80709 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = da39a3ee5e6b4b0d3255bfef95601890afd80709; sourceTree = "<group>"; };
+		3145C8AB1222AC460066AB32 /* e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 */ = {isa = PBXFileReference; lastKnownFileType = file; path = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855; sourceTree = "<group>"; };
+		3145C8AC1222AC460066AB32 /* tentative_pristine */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tentative_pristine; sourceTree = "<group>"; };
+		3145C8AD1222AC460066AB32 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		3145C8AF1222AC460066AB32 /* OBJResource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OBJResource.cpp; sourceTree = "<group>"; };
+		3145C8B01222AC460066AB32 /* OBJResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJResource.h; sourceTree = "<group>"; };
+		3145C8D61222ADD10066AB32 /* FutureTank */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FutureTank; path = ../OEIphone/projects/OEIphone/data/FutureTank; sourceTree = SOURCE_ROOT; };
 		3152ECD91217FE4100786F4E /* iOEPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOEPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3152ECDB1217FE4100786F4E /* iOEPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOEPhone-Info.plist"; sourceTree = "<group>"; };
 		31AAC1A7121867B600C9EF35 /* OpenGLES2Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenGLES2Shader.cpp; path = extensions/iOS/Resources/OpenGLES2Shader.cpp; sourceTree = "<group>"; };
 		31CB9CE01218718B004DCFD8 /* test.vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.vert.glsl; path = "projects/OEIphone/repo-data/test.vert.glsl"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		31CB9CE2121871A2004DCFD8 /* test.frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.frag.glsl; path = "projects/OEIphone/repo-data/test.frag.glsl"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		31CB9CF5121871E9004DCFD8 /* test.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.glsl; path = "projects/OEIphone/repo-data/test.glsl"; sourceTree = "<group>"; };
+		31D34755122151F800106C84 /* iOSTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iOSTouch.cpp; path = ../OEIphone/extensions/iOS/Devices/iOSTouch.cpp; sourceTree = SOURCE_ROOT; };
+		31D347571221520100106C84 /* iOSTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSTouch.h; path = ../OEIphone/extensions/iOS/Devices/iOSTouch.h; sourceTree = SOURCE_ROOT; };
+		31D34A0F1221710700106C84 /* libExtensions_MeshUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExtensions_MeshUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D34A1A1221716400106C84 /* format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = format; sourceTree = "<group>"; };
+		31D34A1B1221716400106C84 /* hashed_inventory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hashed_inventory; sourceTree = "<group>"; };
+		31D34A1D1221716400106C84 /* 0000004684-f0f5b9af7caeea9e2af97e2c132f0f373827a3cd6eb4168e4c79e0dec4e6e923 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000004684-f0f5b9af7caeea9e2af97e2c132f0f373827a3cd6eb4168e4c79e0dec4e6e923"; sourceTree = "<group>"; };
+		31D34A1F1221716400106C84 /* 0000000192-fd4df9d792ca44ea0bf91d7afc6f9f78d25d82b324197c9ab6be4cfb0390a7d3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000192-fd4df9d792ca44ea0bf91d7afc6f9f78d25d82b324197c9ab6be4cfb0390a7d3"; sourceTree = "<group>"; };
+		31D34A201221716400106C84 /* 0000000244-d52cd1e79578bda028c27ac5d0fede433c9066b301304f5d90be9104ec62c2cf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000244-d52cd1e79578bda028c27ac5d0fede433c9066b301304f5d90be9104ec62c2cf"; sourceTree = "<group>"; };
+		31D34A211221716400106C84 /* 0000000268-e2a208e8b6d01ccb0a76904d08c3b856f9cdf5c4c65096d49781d57be89643e5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000268-e2a208e8b6d01ccb0a76904d08c3b856f9cdf5c4c65096d49781d57be89643e5"; sourceTree = "<group>"; };
+		31D34A221221716400106C84 /* 0000000356-644b49d1cc5b2b2843e5068823b4399d573f226272bafb687c768e1d4c1973bf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000356-644b49d1cc5b2b2843e5068823b4399d573f226272bafb687c768e1d4c1973bf"; sourceTree = "<group>"; };
+		31D34A231221716400106C84 /* 0000000366-9c8c88b97b9a5d9c03576ed9595ae1ef2f5eefe295ca7f3535aa2807d9c98000 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000366-9c8c88b97b9a5d9c03576ed9595ae1ef2f5eefe295ca7f3535aa2807d9c98000"; sourceTree = "<group>"; };
+		31D34A241221716400106C84 /* 0000000421-9263a5f6857608d8d3332ea80b88558ca38c269ffdaaae25310f00c92ac9c58f */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000421-9263a5f6857608d8d3332ea80b88558ca38c269ffdaaae25310f00c92ac9c58f"; sourceTree = "<group>"; };
+		31D34A251221716400106C84 /* 0000000441-a267035d45e29082941f98f0a2d324e0cc3da8681b6824efdfe3cd91ddb579dd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000441-a267035d45e29082941f98f0a2d324e0cc3da8681b6824efdfe3cd91ddb579dd"; sourceTree = "<group>"; };
+		31D34A261221716400106C84 /* 0000000494-a7015851f6f1e1b4b4beead95d02d4574fe8307deda4377f6be1a5de197e10fe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000494-a7015851f6f1e1b4b4beead95d02d4574fe8307deda4377f6be1a5de197e10fe"; sourceTree = "<group>"; };
+		31D34A271221716400106C84 /* 0000000760-a572bfebf2575926a9ac79ec7a835025142bb1f7602cf3ee16121af67e47af88 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000760-a572bfebf2575926a9ac79ec7a835025142bb1f7602cf3ee16121af67e47af88"; sourceTree = "<group>"; };
+		31D34A281221716400106C84 /* 0000000780-8e70648c05e2e85eaf08fb53781709a3027eafc9f3cdd6e4976ef4e293273274 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000780-8e70648c05e2e85eaf08fb53781709a3027eafc9f3cdd6e4976ef4e293273274"; sourceTree = "<group>"; };
+		31D34A291221716400106C84 /* 0000001215-d75902c0aec4ab15e8e6780bc1ddf6018c595c945bb3b910503daa1f88d291ad */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001215-d75902c0aec4ab15e8e6780bc1ddf6018c595c945bb3b910503daa1f88d291ad"; sourceTree = "<group>"; };
+		31D34A2A1221716400106C84 /* 0000001458-a17d3794b1ec884fb10a3a2969b6ce82c7d97650a41c0ad3206304f864761289 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001458-a17d3794b1ec884fb10a3a2969b6ce82c7d97650a41c0ad3206304f864761289"; sourceTree = "<group>"; };
+		31D34A2B1221716400106C84 /* 0000001591-4e8d5c569dc0262a1e96424f4021a73128b1ea1fac10681e6350b25b33aa87b4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001591-4e8d5c569dc0262a1e96424f4021a73128b1ea1fac10681e6350b25b33aa87b4"; sourceTree = "<group>"; };
+		31D34A2C1221716400106C84 /* 0000001816-f40e0caf1b2cfef778387f10edf5442ad12dd85a6a0396ba69f6cad9c30db052 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001816-f40e0caf1b2cfef778387f10edf5442ad12dd85a6a0396ba69f6cad9c30db052"; sourceTree = "<group>"; };
+		31D34A2D1221716400106C84 /* 0000002188-90e34065f8cca7ad61f209b3377e359a9865fd84ce7ff07026b7a112de497c01 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002188-90e34065f8cca7ad61f209b3377e359a9865fd84ce7ff07026b7a112de497c01"; sourceTree = "<group>"; };
+		31D34A2E1221716400106C84 /* 0000002228-206dd8026f681f3e0495f5c4415b414fbe81a0519a339965c92bcd38440c8eae */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002228-206dd8026f681f3e0495f5c4415b414fbe81a0519a339965c92bcd38440c8eae"; sourceTree = "<group>"; };
+		31D34A2F1221716400106C84 /* 0000002415-0482ba74506a666024e7a477d8b9951d8a2d94acbdcd5f70bac1512b96394516 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002415-0482ba74506a666024e7a477d8b9951d8a2d94acbdcd5f70bac1512b96394516"; sourceTree = "<group>"; };
+		31D34A301221716400106C84 /* 0000002700-48472d75235c8a07f417ae0d4fbecd78d94f13b9927005af5ec0215c5309185a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002700-48472d75235c8a07f417ae0d4fbecd78d94f13b9927005af5ec0215c5309185a"; sourceTree = "<group>"; };
+		31D34A311221716400106C84 /* 0000002764-750da01aeef444c4fac816afe2c884e01ed53ee2594d12d5c589bb009bbeb15f */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002764-750da01aeef444c4fac816afe2c884e01ed53ee2594d12d5c589bb009bbeb15f"; sourceTree = "<group>"; };
+		31D34A321221716400106C84 /* 0000003257-7ce06b99f61de6d0c8bd6db02d822bc58166ef84dc6b920c982b1b692d2e5fc2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000003257-7ce06b99f61de6d0c8bd6db02d822bc58166ef84dc6b920c982b1b692d2e5fc2"; sourceTree = "<group>"; };
+		31D34A331221716400106C84 /* 0000005860-311c527738e95448ef6fd45efbaea361fbb913cf2cbac1dcff265cd9e532b034 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000005860-311c527738e95448ef6fd45efbaea361fbb913cf2cbac1dcff265cd9e532b034"; sourceTree = "<group>"; };
+		31D34A341221716400106C84 /* 0000006086-586e875980799d4dbfb42e5485aaba000e115a2fe542aec67805ccf87e96a195 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000006086-586e875980799d4dbfb42e5485aaba000e115a2fe542aec67805ccf87e96a195"; sourceTree = "<group>"; };
+		31D34A351221716400106C84 /* 0000013672-44718c0f44bd4b53594ae84e411c2c580745ce097893cc703638b0f564b66db6 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000013672-44718c0f44bd4b53594ae84e411c2c580745ce097893cc703638b0f564b66db6"; sourceTree = "<group>"; };
+		31D34A361221716400106C84 /* 0000018387-a1a131efa5032a39691c02dcb0e128a3fecfaceb538f607399468d71729f957c */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000018387-a1a131efa5032a39691c02dcb0e128a3fecfaceb538f607399468d71729f957c"; sourceTree = "<group>"; };
+		31D34A371221716400106C84 /* 0000020563-e9e3cc0215b19ac927cc695d23d71dc2d2a452734c654633347b85d04d50b4f5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000020563-e9e3cc0215b19ac927cc695d23d71dc2d2a452734c654633347b85d04d50b4f5"; sourceTree = "<group>"; };
+		31D34A381221716400106C84 /* 0000032807-5f27138e201fabb718b611cf25ffb103b92d5ca257da4b0ea1d3e840ef887aee */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000032807-5f27138e201fabb718b611cf25ffb103b92d5ca257da4b0ea1d3e840ef887aee"; sourceTree = "<group>"; };
+		31D34A391221716400106C84 /* pending */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pending; sourceTree = "<group>"; };
+		31D34A3A1221716400106C84 /* pending.tentative */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pending.tentative; sourceTree = "<group>"; };
+		31D34A3C1221716400106C84 /* binaries */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = binaries; sourceTree = "<group>"; };
+		31D34A3D1221716400106C84 /* boring */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = boring; sourceTree = "<group>"; };
+		31D34A3E1221716400106C84 /* defaultrepo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defaultrepo; sourceTree = "<group>"; };
+		31D34A3F1221716400106C84 /* motd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = motd; sourceTree = "<group>"; };
+		31D34A401221716400106C84 /* repos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = repos; sourceTree = "<group>"; };
+		31D34A421221716400106C84 /* 0000000093-656326fb3662dc7831b60956f1ad473fcb72c95b481c9344fdb41427e75aa47c */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000093-656326fb3662dc7831b60956f1ad473fcb72c95b481c9344fdb41427e75aa47c"; sourceTree = "<group>"; };
+		31D34A431221716400106C84 /* 0000000190-5ad6078d3756510ae1ef8901f077942f469049566cb5305bee0d4e8c530fb1e4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000190-5ad6078d3756510ae1ef8901f077942f469049566cb5305bee0d4e8c530fb1e4"; sourceTree = "<group>"; };
+		31D34A441221716400106C84 /* 0000000190-bc05ab422f7861a4ea6079e989a4a2d24dee8e3f4440db4867c7a26ae0dbc1a8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000190-bc05ab422f7861a4ea6079e989a4a2d24dee8e3f4440db4867c7a26ae0dbc1a8"; sourceTree = "<group>"; };
+		31D34A451221716400106C84 /* 0000000393-1e7222f97c94444298144baacac9770a5f089213ec955b59c77cdd5774d9e5e2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000393-1e7222f97c94444298144baacac9770a5f089213ec955b59c77cdd5774d9e5e2"; sourceTree = "<group>"; };
+		31D34A461221716400106C84 /* 0000000733-d2a20d1d6a862835d55a8b826cc4435d36db30d2e035585ef59e49d31dbef1a2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000733-d2a20d1d6a862835d55a8b826cc4435d36db30d2e035585ef59e49d31dbef1a2"; sourceTree = "<group>"; };
+		31D34A471221716400106C84 /* 0000000786-12d92b67a8d84c06e7fa5ca2ee8f891ff6d38390ea49ac363c773dc5759ac25b */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000786-12d92b67a8d84c06e7fa5ca2ee8f891ff6d38390ea49ac363c773dc5759ac25b"; sourceTree = "<group>"; };
+		31D34A481221716400106C84 /* 0000000794-a4331be0b95da8122382d3ce76bede12c66e0ee8d551b59060b9847fabf741c4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000000794-a4331be0b95da8122382d3ce76bede12c66e0ee8d551b59060b9847fabf741c4"; sourceTree = "<group>"; };
+		31D34A491221716400106C84 /* 0000001008-7ede74e3fce3cd4b32ed3feed8078ed85d17c757137410a9c16e58eef193d498 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001008-7ede74e3fce3cd4b32ed3feed8078ed85d17c757137410a9c16e58eef193d498"; sourceTree = "<group>"; };
+		31D34A4A1221716400106C84 /* 0000001039-70a1c21330710d2363bbb4c51094ce6af01fc11ff0f832a1bb7f7af13eb46ae5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001039-70a1c21330710d2363bbb4c51094ce6af01fc11ff0f832a1bb7f7af13eb46ae5"; sourceTree = "<group>"; };
+		31D34A4B1221716400106C84 /* 0000001144-43d895699479b185e59ff2a8d2c7b093f6225228070be5d8ffe021353e66333f */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001144-43d895699479b185e59ff2a8d2c7b093f6225228070be5d8ffe021353e66333f"; sourceTree = "<group>"; };
+		31D34A4C1221716400106C84 /* 0000001206-77b98bfdd412e98de0b406c630033ace9996f2644a8da69214c704dda1aa6b49 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000001206-77b98bfdd412e98de0b406c630033ace9996f2644a8da69214c704dda1aa6b49"; sourceTree = "<group>"; };
+		31D34A4D1221716400106C84 /* 0000002076-2c4c033c678fa638d3a61ac537d2a5ba8d4802a09fa8b836f7796d4e86ad4dcd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000002076-2c4c033c678fa638d3a61ac537d2a5ba8d4802a09fa8b836f7796d4e86ad4dcd"; sourceTree = "<group>"; };
+		31D34A4E1221716400106C84 /* 0000003003-c6e8e70babfa0a3c059605e6a7e1503a831749f44e47de2a162c9d04b60f972f */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000003003-c6e8e70babfa0a3c059605e6a7e1503a831749f44e47de2a162c9d04b60f972f"; sourceTree = "<group>"; };
+		31D34A4F1221716400106C84 /* 0000017370-237f0f73f7592f839f8b19028dd726d57b111a033272861c7fae67540615b6a1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000017370-237f0f73f7592f839f8b19028dd726d57b111a033272861c7fae67540615b6a1"; sourceTree = "<group>"; };
+		31D34A501221716400106C84 /* 0000027451-06495b4b052ae79fa56b776dfdc6c6f38a9f2beb147754e4d3bb9952de738a16 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0000027451-06495b4b052ae79fa56b776dfdc6c6f38a9f2beb147754e4d3bb9952de738a16"; sourceTree = "<group>"; };
+		31D34A511221716400106C84 /* da39a3ee5e6b4b0d3255bfef95601890afd80709 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = da39a3ee5e6b4b0d3255bfef95601890afd80709; sourceTree = "<group>"; };
+		31D34A521221716400106C84 /* e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 */ = {isa = PBXFileReference; lastKnownFileType = file; path = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855; sourceTree = "<group>"; };
+		31D34A531221716400106C84 /* tentative_pristine */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tentative_pristine; sourceTree = "<group>"; };
+		31D34A541221716400106C84 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		31D34A561221716400106C84 /* MeshCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshCreator.cpp; sourceTree = "<group>"; };
+		31D34A571221716400106C84 /* MeshCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshCreator.h; sourceTree = "<group>"; };
+		31D34A581221716400106C84 /* MeshSimplifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshSimplifier.cpp; sourceTree = "<group>"; };
+		31D34A591221716400106C84 /* MeshSimplifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshSimplifier.h; sourceTree = "<group>"; };
+		31D34A5A1221716400106C84 /* MeshTransformer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshTransformer.cpp; sourceTree = "<group>"; };
+		31D34A5B1221716400106C84 /* MeshTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshTransformer.h; sourceTree = "<group>"; };
+		31D34A5C1221716400106C84 /* MeshUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshUtils.cpp; sourceTree = "<group>"; };
+		31D34A5D1221716400106C84 /* MeshUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -665,6 +811,10 @@
 				31CB9EBB12187F46004DCFD8 /* libOpenEngine_Geometry.a in Frameworks */,
 				31CB9EBE12187F6D004DCFD8 /* libOpenEngine_Math.a in Frameworks */,
 				31AD22E4121B0E2C00D237F1 /* libOpenEngine_Display.a in Frameworks */,
+				31D34A741221721900106C84 /* libExtensions_MeshUtils.a in Frameworks */,
+				3145C8BA1222AC930066AB32 /* libExtensions_OBJResource.a in Frameworks */,
+				3145C8F51222AEBD0066AB32 /* libExtensions_TGAResource.a in Frameworks */,
+				3145C92E1222B0260066AB32 /* libOpenEngine_Renderers.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +826,7 @@
 			children = (
 				1005DFAA01005DFAA01005DF /* Sources */,
 				1005E00801005E00801005E0 /* Resources */,
+				3190254D121D48CD00913C90 /* Resources-iPad */,
 				1005E05A01005E05A01005E0 /* Products */,
 				3152ECDB1217FE4100786F4E /* iOEPhone-Info.plist */,
 			);
@@ -684,12 +835,13 @@
 		1005DFAA01005DFAA01005DF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3145C87D1222AC460066AB32 /* mesh-OBJResource */,
 				1005E08A01005E08A01005E0 /* ALL_BUILD */,
 				1005E18001005E18001005E1 /* doc */,
+				31D34A181221716400106C84 /* MeshUtils */,
 				1005E26C01005E26C01005E2 /* Extensions_AccelerationStructures */,
 				1005E39C01005E39C01005E3 /* Extensions_iOS */,
 				1005E55201005E55201005E5 /* Extensions_IRC */,
-				1005E6CC01005E6CC01005E6 /* Extensions_OBJResource */,
 				1005E7B001005E7B001005E7 /* Extensions_Sockets */,
 				1005E90101005E90101005E9 /* Extensions_TGAResource */,
 				1005E9E701005E9E701005E9 /* OEIphone */,
@@ -711,6 +863,7 @@
 		1005E00801005E00801005E0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3145C8D61222ADD10066AB32 /* FutureTank */,
 				31CB9CE01218718B004DCFD8 /* test.vert.glsl */,
 				31CB9CE2121871A2004DCFD8 /* test.frag.glsl */,
 				31CB9CF5121871E9004DCFD8 /* test.glsl */,
@@ -739,6 +892,7 @@
 				10113FDC010113FDC010113F /* libOpenEngine_Scene.a */,
 				10115F76010115F76010115F /* libOpenEngine_Utils.a */,
 				3152ECD91217FE4100786F4E /* iOEPhone.app */,
+				31D34A0F1221710700106C84 /* libExtensions_MeshUtils.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -810,6 +964,7 @@
 		1005E40401005E40401005E4 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				31D347571221520100106C84 /* iOSTouch.h */,
 				10064BE6010064BE6010064B /* iOSEngine.h */,
 				10064DE3010064DE3010064D /* OEDelegate.h */,
 				10064FE1010064FE1010064F /* OEViewController.h */,
@@ -823,10 +978,10 @@
 		1005E46D01005E46D01005E4 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				31D34755122151F800106C84 /* iOSTouch.cpp */,
 				10064CE6010064CE6010064C /* iOSEngine.mm */,
 				10064EE2010064EE2010064E /* OEDelegate.mm */,
-				100650E40100650E40100650 /* OEViewController.m */,
-				100652E90100652E90100652 /* OEView.m */,
+				100652E90100652E90100652 /* OEView.mm */,
 				100654EA0100654EA0100654 /* iOSEnvironment.mm */,
 				100656EE0100656EE0100656 /* iOSFrame.mm */,
 				100657EC0100657EC0100657 /* RenderingView.cpp */,
@@ -865,23 +1020,6 @@
 				100671BE0100671BE0100671 /* IRCLogger.h */,
 			);
 			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		1005E6CC01005E6CC01005E6 /* Extensions_OBJResource */ = {
-			isa = PBXGroup;
-			children = (
-				1005E72E01005E72E01005E7 /* Source Files */,
-				1006858D01006858D0100685 /* CMakeLists.txt */,
-			);
-			name = Extensions_OBJResource;
-			sourceTree = "<group>";
-		};
-		1005E72E01005E72E01005E7 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				100684940100684940100684 /* OBJResource.cpp */,
-			);
-			name = "Source Files";
 			sourceTree = "<group>";
 		};
 		1005E7B001005E7B001005E7 /* Extensions_Sockets */ = {
@@ -1406,6 +1544,233 @@
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
+		3145C87D1222AC460066AB32 /* mesh-OBJResource */ = {
+			isa = PBXGroup;
+			children = (
+				3145C87E1222AC460066AB32 /* _darcs */,
+				3145C8AD1222AC460066AB32 /* CMakeLists.txt */,
+				3145C8AE1222AC460066AB32 /* Resources */,
+			);
+			name = "mesh-OBJResource";
+			path = "../OEIphone/extensions/mesh-OBJResource";
+			sourceTree = SOURCE_ROOT;
+		};
+		3145C87E1222AC460066AB32 /* _darcs */ = {
+			isa = PBXGroup;
+			children = (
+				3145C87F1222AC460066AB32 /* format */,
+				3145C8801222AC460066AB32 /* hashed_inventory */,
+				3145C8811222AC460066AB32 /* inventories */,
+				3145C8831222AC460066AB32 /* patches */,
+				3145C8991222AC460066AB32 /* prefs */,
+				3145C89F1222AC460066AB32 /* pristine.hashed */,
+				3145C8AC1222AC460066AB32 /* tentative_pristine */,
+			);
+			path = _darcs;
+			sourceTree = "<group>";
+		};
+		3145C8811222AC460066AB32 /* inventories */ = {
+			isa = PBXGroup;
+			children = (
+				3145C8821222AC460066AB32 /* 0000003230-4c13dc16e85eea7f4db4dcf64a952f237cb366539f8236935a793590356ffb42 */,
+			);
+			path = inventories;
+			sourceTree = "<group>";
+		};
+		3145C8831222AC460066AB32 /* patches */ = {
+			isa = PBXGroup;
+			children = (
+				3145C8841222AC460066AB32 /* 0000000109-c55634291589a46b5d8ed7db14485a5d74c3d7d4b4ad2a2e7c5276e3837b08e7 */,
+				3145C8851222AC460066AB32 /* 0000000145-a7a957b69ec49281f40eff89080394f2bb0cb90f96e4c6717de73c8bd77e81a7 */,
+				3145C8861222AC460066AB32 /* 0000000146-78075db153ea8f8434d36aa08f26c67eb65e247944ddb646147e7ce464999fc0 */,
+				3145C8871222AC460066AB32 /* 0000000148-bcd95074f6db9c8b6e2fbf94d78078dd1bb3080c0703f4d93981ca5eec9b611c */,
+				3145C8881222AC460066AB32 /* 0000000163-2391073d1d8c956ef3b3212d8a90035a2a4fb5a3908882f989d32dd94a1eb67a */,
+				3145C8891222AC460066AB32 /* 0000000268-0505a284d2e4132179e0a8759f261257727d0abc76de56ec54e7ecf9c6e99bfd */,
+				3145C88A1222AC460066AB32 /* 0000000308-bfc13a92075adeed75a0b1e4a2c35a97c0f135bc20e8ffa8a82191ae19270b1a */,
+				3145C88B1222AC460066AB32 /* 0000000337-682e9638bd662bca43e7b82e831f0bfe0b13fa1d82fa1e8a437b1ebc567e2552 */,
+				3145C88C1222AC460066AB32 /* 0000000352-6b7cb9249fe5e5c700e3f5666a6e91bf6ef7f8373a18bceb25d44d88e12a6210 */,
+				3145C88D1222AC460066AB32 /* 0000000388-3a621cef8f6827cdcdf57b82401e8a25beae24fc8bd73ab6313d80a670738707 */,
+				3145C88E1222AC460066AB32 /* 0000000420-1a3508093baf59f5b28ac9b9e295a4c98d1849da2b9149513b6a774df1ebaee9 */,
+				3145C88F1222AC460066AB32 /* 0000000434-208128b57917f01ef5688f1f4b1e7b0fd795d2c61379b84a7b7a8b42ea6ba822 */,
+				3145C8901222AC460066AB32 /* 0000000442-5e07ff7f8f16527c06248728a3b4b72d22bf356904e33a85acffc0992f36d09d */,
+				3145C8911222AC460066AB32 /* 0000002337-97415eb6c115dbaf645605ddf215fd7dac2247425b3502fc6b4231467364fea4 */,
+				3145C8921222AC460066AB32 /* 0000002396-b9098a713c41f81a0b9b6f1237ff73a6682ba6619e63f56bf6cb29a943e1f21c */,
+				3145C8931222AC460066AB32 /* 0000002723-55a78ab9fb63d300c252ad014334c1c3c47958149d161fcb10e45d97e505043b */,
+				3145C8941222AC460066AB32 /* 0000003293-41787ad114137a9a37a7c980b2904e28891d536e3e6f07204c68e8a66b802233 */,
+				3145C8951222AC460066AB32 /* 0000005023-15eaacf47953e7fd09aac405201e124e7f4fdda7c543acb26091e869612df30c */,
+				3145C8961222AC460066AB32 /* 0000012495-3bbce043e3b2b60bdf3257e9546427d1133fbae099636335d93859552de68eee */,
+				3145C8971222AC460066AB32 /* pending */,
+				3145C8981222AC460066AB32 /* pending.tentative */,
+			);
+			path = patches;
+			sourceTree = "<group>";
+		};
+		3145C8991222AC460066AB32 /* prefs */ = {
+			isa = PBXGroup;
+			children = (
+				3145C89A1222AC460066AB32 /* binaries */,
+				3145C89B1222AC460066AB32 /* boring */,
+				3145C89C1222AC460066AB32 /* defaultrepo */,
+				3145C89D1222AC460066AB32 /* motd */,
+				3145C89E1222AC460066AB32 /* repos */,
+			);
+			path = prefs;
+			sourceTree = "<group>";
+		};
+		3145C89F1222AC460066AB32 /* pristine.hashed */ = {
+			isa = PBXGroup;
+			children = (
+				3145C8A01222AC460066AB32 /* 0000000170-f7dac58b0141f46b8dd672b321ece971d98667382273f20c5499feea4e2c6599 */,
+				3145C8A11222AC460066AB32 /* 0000000194-0f34feb6084830e26ba8440d6adaf37df09a77051a02ee5e8098f314033eeda4 */,
+				3145C8A21222AC460066AB32 /* 0000000194-4c40d385c0e54fffb0481700adcf932a450f86f8fb991ccf9109603eccda8412 */,
+				3145C8A31222AC460066AB32 /* 0000000194-65b60943a8cfa4ec55db385bd0438407dbc7598a86f070ee80b174e40d6a9c23 */,
+				3145C8A41222AC460066AB32 /* 0000000194-d090450c1c0f4b759c7aca01cee742fc20f4e8aed3b720b16ff1fb0d08769308 */,
+				3145C8A51222AC460066AB32 /* 0000000256-59d7113682b2e2f289c282b53596f49598cddbba66b3487e2a6598ca02aa2ecd */,
+				3145C8A61222AC460066AB32 /* 0000001817-eff6e5f4c3370652edd195567d16c8e5e9501123e5e0b66fbd7ed4aa63e07fe0 */,
+				3145C8A71222AC460066AB32 /* 0000001955-48bc29fb6be5228f794a3b0eba55f936ee0ac5faa9034e4ad06b18d89ca362e7 */,
+				3145C8A81222AC460066AB32 /* 0000009724-852ff595dd9c9434e78da1fb2f39bb4bc34a1c9706895238f8e26a6fbbb4458f */,
+				3145C8A91222AC460066AB32 /* 0000012512-c30487dcc2294c768915a0f841a8ac6eefd210b7cb46148258f695cd54b3dd9e */,
+				3145C8AA1222AC460066AB32 /* da39a3ee5e6b4b0d3255bfef95601890afd80709 */,
+				3145C8AB1222AC460066AB32 /* e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 */,
+			);
+			path = pristine.hashed;
+			sourceTree = "<group>";
+		};
+		3145C8AE1222AC460066AB32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3145C8AF1222AC460066AB32 /* OBJResource.cpp */,
+				3145C8B01222AC460066AB32 /* OBJResource.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3190254D121D48CD00913C90 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		31D34A181221716400106C84 /* MeshUtils */ = {
+			isa = PBXGroup;
+			children = (
+				31D34A191221716400106C84 /* _darcs */,
+				31D34A541221716400106C84 /* CMakeLists.txt */,
+				31D34A551221716400106C84 /* Utils */,
+			);
+			name = MeshUtils;
+			path = ../OEIphone/extensions/MeshUtils;
+			sourceTree = SOURCE_ROOT;
+		};
+		31D34A191221716400106C84 /* _darcs */ = {
+			isa = PBXGroup;
+			children = (
+				31D34A1A1221716400106C84 /* format */,
+				31D34A1B1221716400106C84 /* hashed_inventory */,
+				31D34A1C1221716400106C84 /* inventories */,
+				31D34A1E1221716400106C84 /* patches */,
+				31D34A3B1221716400106C84 /* prefs */,
+				31D34A411221716400106C84 /* pristine.hashed */,
+				31D34A531221716400106C84 /* tentative_pristine */,
+			);
+			path = _darcs;
+			sourceTree = "<group>";
+		};
+		31D34A1C1221716400106C84 /* inventories */ = {
+			isa = PBXGroup;
+			children = (
+				31D34A1D1221716400106C84 /* 0000004684-f0f5b9af7caeea9e2af97e2c132f0f373827a3cd6eb4168e4c79e0dec4e6e923 */,
+			);
+			path = inventories;
+			sourceTree = "<group>";
+		};
+		31D34A1E1221716400106C84 /* patches */ = {
+			isa = PBXGroup;
+			children = (
+				31D34A1F1221716400106C84 /* 0000000192-fd4df9d792ca44ea0bf91d7afc6f9f78d25d82b324197c9ab6be4cfb0390a7d3 */,
+				31D34A201221716400106C84 /* 0000000244-d52cd1e79578bda028c27ac5d0fede433c9066b301304f5d90be9104ec62c2cf */,
+				31D34A211221716400106C84 /* 0000000268-e2a208e8b6d01ccb0a76904d08c3b856f9cdf5c4c65096d49781d57be89643e5 */,
+				31D34A221221716400106C84 /* 0000000356-644b49d1cc5b2b2843e5068823b4399d573f226272bafb687c768e1d4c1973bf */,
+				31D34A231221716400106C84 /* 0000000366-9c8c88b97b9a5d9c03576ed9595ae1ef2f5eefe295ca7f3535aa2807d9c98000 */,
+				31D34A241221716400106C84 /* 0000000421-9263a5f6857608d8d3332ea80b88558ca38c269ffdaaae25310f00c92ac9c58f */,
+				31D34A251221716400106C84 /* 0000000441-a267035d45e29082941f98f0a2d324e0cc3da8681b6824efdfe3cd91ddb579dd */,
+				31D34A261221716400106C84 /* 0000000494-a7015851f6f1e1b4b4beead95d02d4574fe8307deda4377f6be1a5de197e10fe */,
+				31D34A271221716400106C84 /* 0000000760-a572bfebf2575926a9ac79ec7a835025142bb1f7602cf3ee16121af67e47af88 */,
+				31D34A281221716400106C84 /* 0000000780-8e70648c05e2e85eaf08fb53781709a3027eafc9f3cdd6e4976ef4e293273274 */,
+				31D34A291221716400106C84 /* 0000001215-d75902c0aec4ab15e8e6780bc1ddf6018c595c945bb3b910503daa1f88d291ad */,
+				31D34A2A1221716400106C84 /* 0000001458-a17d3794b1ec884fb10a3a2969b6ce82c7d97650a41c0ad3206304f864761289 */,
+				31D34A2B1221716400106C84 /* 0000001591-4e8d5c569dc0262a1e96424f4021a73128b1ea1fac10681e6350b25b33aa87b4 */,
+				31D34A2C1221716400106C84 /* 0000001816-f40e0caf1b2cfef778387f10edf5442ad12dd85a6a0396ba69f6cad9c30db052 */,
+				31D34A2D1221716400106C84 /* 0000002188-90e34065f8cca7ad61f209b3377e359a9865fd84ce7ff07026b7a112de497c01 */,
+				31D34A2E1221716400106C84 /* 0000002228-206dd8026f681f3e0495f5c4415b414fbe81a0519a339965c92bcd38440c8eae */,
+				31D34A2F1221716400106C84 /* 0000002415-0482ba74506a666024e7a477d8b9951d8a2d94acbdcd5f70bac1512b96394516 */,
+				31D34A301221716400106C84 /* 0000002700-48472d75235c8a07f417ae0d4fbecd78d94f13b9927005af5ec0215c5309185a */,
+				31D34A311221716400106C84 /* 0000002764-750da01aeef444c4fac816afe2c884e01ed53ee2594d12d5c589bb009bbeb15f */,
+				31D34A321221716400106C84 /* 0000003257-7ce06b99f61de6d0c8bd6db02d822bc58166ef84dc6b920c982b1b692d2e5fc2 */,
+				31D34A331221716400106C84 /* 0000005860-311c527738e95448ef6fd45efbaea361fbb913cf2cbac1dcff265cd9e532b034 */,
+				31D34A341221716400106C84 /* 0000006086-586e875980799d4dbfb42e5485aaba000e115a2fe542aec67805ccf87e96a195 */,
+				31D34A351221716400106C84 /* 0000013672-44718c0f44bd4b53594ae84e411c2c580745ce097893cc703638b0f564b66db6 */,
+				31D34A361221716400106C84 /* 0000018387-a1a131efa5032a39691c02dcb0e128a3fecfaceb538f607399468d71729f957c */,
+				31D34A371221716400106C84 /* 0000020563-e9e3cc0215b19ac927cc695d23d71dc2d2a452734c654633347b85d04d50b4f5 */,
+				31D34A381221716400106C84 /* 0000032807-5f27138e201fabb718b611cf25ffb103b92d5ca257da4b0ea1d3e840ef887aee */,
+				31D34A391221716400106C84 /* pending */,
+				31D34A3A1221716400106C84 /* pending.tentative */,
+			);
+			path = patches;
+			sourceTree = "<group>";
+		};
+		31D34A3B1221716400106C84 /* prefs */ = {
+			isa = PBXGroup;
+			children = (
+				31D34A3C1221716400106C84 /* binaries */,
+				31D34A3D1221716400106C84 /* boring */,
+				31D34A3E1221716400106C84 /* defaultrepo */,
+				31D34A3F1221716400106C84 /* motd */,
+				31D34A401221716400106C84 /* repos */,
+			);
+			path = prefs;
+			sourceTree = "<group>";
+		};
+		31D34A411221716400106C84 /* pristine.hashed */ = {
+			isa = PBXGroup;
+			children = (
+				31D34A421221716400106C84 /* 0000000093-656326fb3662dc7831b60956f1ad473fcb72c95b481c9344fdb41427e75aa47c */,
+				31D34A431221716400106C84 /* 0000000190-5ad6078d3756510ae1ef8901f077942f469049566cb5305bee0d4e8c530fb1e4 */,
+				31D34A441221716400106C84 /* 0000000190-bc05ab422f7861a4ea6079e989a4a2d24dee8e3f4440db4867c7a26ae0dbc1a8 */,
+				31D34A451221716400106C84 /* 0000000393-1e7222f97c94444298144baacac9770a5f089213ec955b59c77cdd5774d9e5e2 */,
+				31D34A461221716400106C84 /* 0000000733-d2a20d1d6a862835d55a8b826cc4435d36db30d2e035585ef59e49d31dbef1a2 */,
+				31D34A471221716400106C84 /* 0000000786-12d92b67a8d84c06e7fa5ca2ee8f891ff6d38390ea49ac363c773dc5759ac25b */,
+				31D34A481221716400106C84 /* 0000000794-a4331be0b95da8122382d3ce76bede12c66e0ee8d551b59060b9847fabf741c4 */,
+				31D34A491221716400106C84 /* 0000001008-7ede74e3fce3cd4b32ed3feed8078ed85d17c757137410a9c16e58eef193d498 */,
+				31D34A4A1221716400106C84 /* 0000001039-70a1c21330710d2363bbb4c51094ce6af01fc11ff0f832a1bb7f7af13eb46ae5 */,
+				31D34A4B1221716400106C84 /* 0000001144-43d895699479b185e59ff2a8d2c7b093f6225228070be5d8ffe021353e66333f */,
+				31D34A4C1221716400106C84 /* 0000001206-77b98bfdd412e98de0b406c630033ace9996f2644a8da69214c704dda1aa6b49 */,
+				31D34A4D1221716400106C84 /* 0000002076-2c4c033c678fa638d3a61ac537d2a5ba8d4802a09fa8b836f7796d4e86ad4dcd */,
+				31D34A4E1221716400106C84 /* 0000003003-c6e8e70babfa0a3c059605e6a7e1503a831749f44e47de2a162c9d04b60f972f */,
+				31D34A4F1221716400106C84 /* 0000017370-237f0f73f7592f839f8b19028dd726d57b111a033272861c7fae67540615b6a1 */,
+				31D34A501221716400106C84 /* 0000027451-06495b4b052ae79fa56b776dfdc6c6f38a9f2beb147754e4d3bb9952de738a16 */,
+				31D34A511221716400106C84 /* da39a3ee5e6b4b0d3255bfef95601890afd80709 */,
+				31D34A521221716400106C84 /* e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 */,
+			);
+			path = pristine.hashed;
+			sourceTree = "<group>";
+		};
+		31D34A551221716400106C84 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				31D34A561221716400106C84 /* MeshCreator.cpp */,
+				31D34A571221716400106C84 /* MeshCreator.h */,
+				31D34A581221716400106C84 /* MeshSimplifier.cpp */,
+				31D34A591221716400106C84 /* MeshSimplifier.h */,
+				31D34A5A1221716400106C84 /* MeshTransformer.cpp */,
+				31D34A5B1221716400106C84 /* MeshTransformer.h */,
+				31D34A5C1221716400106C84 /* MeshUtils.cpp */,
+				31D34A5D1221716400106C84 /* MeshUtils.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1461,9 +1826,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 100688840100688840100688 /* Build configuration list for PBXNativeTarget "Extensions_OBJResource" */;
 			buildPhases = (
-				100686E70100686E70100686 /* CMake ReRun */,
 				1006867D01006867D0100686 /* Sources */,
-				1006878C01006878C0100687 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1498,9 +1861,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1006AF1701006AF1701006AF /* Build configuration list for PBXNativeTarget "Extensions_TGAResource" */;
 			buildPhases = (
-				1006AD7A01006AD7A01006AD /* CMake ReRun */,
 				1006AD0E01006AD0E01006AD /* Sources */,
-				1006AE1C01006AE1C01006AE /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -1714,11 +2075,30 @@
 				31CB9EBA12187F42004DCFD8 /* PBXTargetDependency */,
 				31CB9EC012187F70004DCFD8 /* PBXTargetDependency */,
 				31AD22E6121B0E3000D237F1 /* PBXTargetDependency */,
+				31D34A631221717000106C84 /* PBXTargetDependency */,
+				3145C8B31222AC5A0066AB32 /* PBXTargetDependency */,
+				3145C8F41222AEB90066AB32 /* PBXTargetDependency */,
+				3145C92D1222B0220066AB32 /* PBXTargetDependency */,
 			);
 			name = iOEPhone;
 			productName = iOEPhone;
 			productReference = 3152ECD91217FE4100786F4E /* iOEPhone.app */;
 			productType = "com.apple.product-type.application";
+		};
+		31D34A051221710700106C84 /* Extensions_MeshUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D34A0A1221710700106C84 /* Build configuration list for PBXNativeTarget "Extensions_MeshUtils" */;
+			buildPhases = (
+				31D34A071221710700106C84 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extensions_MeshUtils;
+			productName = Extensions_Sockets;
+			productReference = 31D34A0F1221710700106C84 /* libExtensions_MeshUtils.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -1763,6 +2143,7 @@
 				1010F0CC01010F0CC01010F0 /* OpenEngine_Resources */,
 				1011315E01011315E0101131 /* OpenEngine_Scene */,
 				101150F80101150F80101150 /* OpenEngine_Utils */,
+				31D34A051221710700106C84 /* Extensions_MeshUtils */,
 			);
 		};
 /* End PBXProject section */
@@ -1775,6 +2156,7 @@
 				31CB9CE3121871AC004DCFD8 /* test.vert.glsl in Resources */,
 				31CB9CE4121871AD004DCFD8 /* test.frag.glsl in Resources */,
 				31CB9CF6121871ED004DCFD8 /* test.glsl in Resources */,
+				3145C8DD1222ADD10066AB32 /* FutureTank in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1861,26 +2243,6 @@
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/IRC -f /Users/ptx/Projects/OE/OEIPhone/Xcode/IRC/CMakeScripts/Extensions_IRC_postBuildPhase.make$CONFIGURATION all";
 		};
-		100686E70100686E70100686 /* CMake ReRun */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake ReRun";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode -f /Users/ptx/Projects/OE/OEIPhone/Xcode/CMakeScripts/ReRunCMake.make";
-		};
-		1006878C01006878C0100687 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/OBJResource -f /Users/ptx/Projects/OE/OEIPhone/Xcode/OBJResource/CMakeScripts/Extensions_OBJResource_postBuildPhase.make$CONFIGURATION all";
-		};
 		10069AAC010069AAC010069A /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1900,26 +2262,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/Sockets -f /Users/ptx/Projects/OE/OEIPhone/Xcode/Sockets/CMakeScripts/Extensions_Sockets_postBuildPhase.make$CONFIGURATION all";
-		};
-		1006AD7A01006AD7A01006AD /* CMake ReRun */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake ReRun";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode -f /Users/ptx/Projects/OE/OEIPhone/Xcode/CMakeScripts/ReRunCMake.make";
-		};
-		1006AE1C01006AE1C01006AE /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIPhone/Xcode/TGAResource -f /Users/ptx/Projects/OE/OEIPhone/Xcode/TGAResource/CMakeScripts/Extensions_TGAResource_postBuildPhase.make$CONFIGURATION all";
 		};
 		1006F80601006F80601006F8 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1983,14 +2325,14 @@
 			files = (
 				10064D97010064D97010064D /* iOSEngine.mm in Sources */,
 				10064F94010064F94010064F /* OEDelegate.mm in Sources */,
-				100651A30100651A30100651 /* OEViewController.m in Sources */,
-				100653990100653990100653 /* OEView.m in Sources */,
+				100653990100653990100653 /* OEView.mm in Sources */,
 				100655A20100655A20100655 /* iOSEnvironment.mm in Sources */,
 				1006579F01006579F0100657 /* iOSFrame.mm in Sources */,
 				100658A30100658A30100658 /* RenderingView.cpp in Sources */,
 				100659A80100659A80100659 /* Renderer.cpp in Sources */,
 				10065AAB010065AAB010065A /* RenderCanvas.cpp in Sources */,
 				31AAC1A8121867B600C9EF35 /* OpenGLES2Shader.cpp in Sources */,
+				31D34756122151F800106C84 /* iOSTouch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2008,7 +2350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100685470100685470100685 /* OBJResource.cpp in Sources */,
+				3145C8B11222AC460066AB32 /* OBJResource.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2191,6 +2533,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31D34A071221710700106C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D34A5E1221716400106C84 /* MeshCreator.cpp in Sources */,
+				31D34A5F1221716400106C84 /* MeshSimplifier.cpp in Sources */,
+				31D34A601221716400106C84 /* MeshTransformer.cpp in Sources */,
+				31D34A611221716400106C84 /* MeshUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2279,6 +2632,21 @@
 			target = 1011315E01011315E0101131 /* OpenEngine_Scene */;
 			targetProxy = 101176220101176220101176 /* PBXContainerItemProxy */;
 		};
+		3145C8B31222AC5A0066AB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100688360100688360100688 /* Extensions_OBJResource */;
+			targetProxy = 3145C8B21222AC5A0066AB32 /* PBXContainerItemProxy */;
+		};
+		3145C8F41222AEB90066AB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1006AEC901006AEC901006AE /* Extensions_TGAResource */;
+			targetProxy = 3145C8F31222AEB90066AB32 /* PBXContainerItemProxy */;
+		};
+		3145C92D1222B0220066AB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1010BD0D01010BD0D01010BD /* OpenEngine_Renderers */;
+			targetProxy = 3145C92C1222B0220066AB32 /* PBXContainerItemProxy */;
+		};
 		31AAC1BB121868AC00C9EF35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1010F0CC01010F0CC01010F0 /* OpenEngine_Resources */;
@@ -2334,15 +2702,21 @@
 			target = 10108F77010108F77010108F /* OpenEngine_Math */;
 			targetProxy = 31CB9EBF12187F70004DCFD8 /* PBXContainerItemProxy */;
 		};
+		31D34A631221717000106C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31D34A051221710700106C84 /* Extensions_MeshUtils */;
+			targetProxy = 31D34A621221717000106C84 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		100605780100605780100605 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphonesimulator3.2;
 				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/build;
 			};
 			name = Debug;
@@ -2352,7 +2726,7 @@
 			buildSettings = {
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphonesimulator3.2;
 				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/build;
 			};
 			name = Release;
@@ -2362,7 +2736,7 @@
 			buildSettings = {
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphonesimulator3.2;
 				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/build;
 			};
 			name = MinSizeRel;
@@ -2372,7 +2746,7 @@
 			buildSettings = {
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphonesimulator3.2;
 				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/build;
 			};
 			name = RelWithDebInfo;
@@ -3375,7 +3749,6 @@
 		100688D80100688D80100688 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = /Users/ptx/Projects/OE/OEIPhone/Xcode/OBJResource/Debug;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -3389,7 +3762,7 @@
 					/Users/ptx/Projects/OE/OEIPhone/extensions/AccelerationStructures,
 					/Users/ptx/Projects/OE/OEIPhone/extensions/iOS,
 					/Users/ptx/Projects/OE/OEIPhone/extensions/IRC,
-					/Users/ptx/Projects/OE/OEIPhone/extensions/OBJResource,
+					"/Users/ptx/Projects/OE/OEIPhone/extensions/mesh-OBJResource",
 					/Users/ptx/Projects/OE/OEIPhone/extensions/Sockets,
 					/Users/ptx/Projects/OE/OEIPhone/extensions/TGAResource,
 				);
@@ -3409,7 +3782,6 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = Extensions_OBJResource;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/OBJResource;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -3761,7 +4133,6 @@
 		1006AF6B01006AF6B01006AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = /Users/ptx/Projects/OE/OEIPhone/Xcode/TGAResource/Debug;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -3795,7 +4166,6 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = Extensions_TGAResource;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/TGAResource;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5295,7 +5665,6 @@
 		1010BDBA01010BDBA01010BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Renderers/Debug;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -5329,7 +5698,6 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = OpenEngine_Renderers;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/src/Renderers;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6062,6 +6430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
@@ -6070,9 +6439,10 @@
 					/Users/ptx/Projects/OE/OEIPhone/extensions/AccelerationStructures,
 					/Users/ptx/Projects/OE/OEIPhone/extensions/iOS,
 					/Users/ptx/Projects/OE/OEIPhone/extensions/IRC,
-					/Users/ptx/Projects/OE/OEIPhone/extensions/OBJResource,
+					"/Users/ptx/Projects/OE/OEIPhone/extensions/mesh-OBJResource",
 					/Users/ptx/Projects/OE/OEIPhone/extensions/Sockets,
 					/Users/ptx/Projects/OE/OEIPhone/extensions/TGAResource,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/MeshUtils,
 				);
 				INFOPLIST_FILE = "iOEPhone-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -6088,6 +6458,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = iOEPhone;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -6096,6 +6468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -6119,6 +6492,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = iOEPhone;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
@@ -6127,6 +6502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					/Users/ptx/Projects/OE/OEIPhone/src,
@@ -6148,6 +6524,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = iOEPhone;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USE_HEADERMAP = NO;
 			};
 			name = MinSizeRel;
@@ -6156,6 +6534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					/Users/ptx/Projects/OE/OEIPhone/src,
@@ -6177,7 +6556,201 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = iOEPhone;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USE_HEADERMAP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		31D34A0B1221710700106C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/ptx/Projects/OE/OEIPhone/src,
+					/usr/local/include,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/AccelerationStructures,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/iOS,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/IRC,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/OBJResource,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/MeshUtils,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/Sockets,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/TGAResource,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-DOE_SAFE=true",
+					"-DOE_DEBUG_GL=true",
+					"-D_DEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Extensions_MeshUtils;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		31D34A0C1221710700106C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/ptx/Projects/OE/OEIPhone/Xcode/Sockets/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/ptx/Projects/OE/OEIPhone/src,
+					/usr/local/include,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/AccelerationStructures,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/iOS,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/IRC,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/OBJResource,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/Sockets,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/TGAResource,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-DNDEBUG";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-DOE_SAFE=true",
+					"-DOE_DEBUG_GL=true",
+					"-D_DEBUG",
+					"-O3",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Extensions_Sockets;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/Sockets;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		31D34A0D1221710700106C84 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/ptx/Projects/OE/OEIPhone/Xcode/Sockets/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/ptx/Projects/OE/OEIPhone/src,
+					/usr/local/include,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/AccelerationStructures,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/iOS,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/IRC,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/OBJResource,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/Sockets,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/TGAResource,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-DNDEBUG";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-DOE_SAFE=true",
+					"-DOE_DEBUG_GL=true",
+					"-D_DEBUG",
+					"-Os",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Extensions_Sockets;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/Sockets;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		31D34A0E1221710700106C84 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/ptx/Projects/OE/OEIPhone/Xcode/Sockets/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/ptx/Projects/OE/OEIPhone/src,
+					/usr/local/include,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/AccelerationStructures,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/iOS,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/IRC,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/OBJResource,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/Sockets,
+					/Users/ptx/Projects/OE/OEIPhone/extensions/TGAResource,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-DOE_SAFE=true",
+					"-DOE_DEBUG_GL=true",
+					"-D_DEBUG",
+					"-O2",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Extensions_Sockets;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/Sockets;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -6422,6 +6995,17 @@
 				3152ECDD1217FE4200786F4E /* Release */,
 				3152ECDE1217FE4200786F4E /* MinSizeRel */,
 				3152ECDF1217FE4200786F4E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		31D34A0A1221710700106C84 /* Build configuration list for PBXNativeTarget "Extensions_MeshUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D34A0B1221710700106C84 /* Debug */,
+				31D34A0C1221710700106C84 /* Release */,
+				31D34A0D1221710700106C84 /* MinSizeRel */,
+				31D34A0E1221710700106C84 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
