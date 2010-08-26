@@ -183,6 +183,7 @@
 		31D34A601221716400106C84 /* MeshTransformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D34A5A1221716400106C84 /* MeshTransformer.cpp */; };
 		31D34A611221716400106C84 /* MeshUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D34A5C1221716400106C84 /* MeshUtils.cpp */; };
 		31D34A741221721900106C84 /* libExtensions_MeshUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D34A0F1221710700106C84 /* libExtensions_MeshUtils.a */; };
+		31DDA74A1226B3CF00E9EBA7 /* LightRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31DDA7481226B3CF00E9EBA7 /* LightRenderer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -794,6 +795,8 @@
 		31D34A5B1221716400106C84 /* MeshTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshTransformer.h; sourceTree = "<group>"; };
 		31D34A5C1221716400106C84 /* MeshUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshUtils.cpp; sourceTree = "<group>"; };
 		31D34A5D1221716400106C84 /* MeshUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshUtils.h; sourceTree = "<group>"; };
+		31DDA7481226B3CF00E9EBA7 /* LightRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LightRenderer.cpp; path = ../OEIphone/extensions/iOS/Renderers/OpenGLES2/LightRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		31DDA7491226B3CF00E9EBA7 /* LightRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightRenderer.h; path = ../OEIphone/extensions/iOS/Renderers/OpenGLES2/LightRenderer.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -964,6 +967,7 @@
 		1005E40401005E40401005E4 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				31DDA7491226B3CF00E9EBA7 /* LightRenderer.h */,
 				31D347571221520100106C84 /* iOSTouch.h */,
 				10064BE6010064BE6010064B /* iOSEngine.h */,
 				10064DE3010064DE3010064D /* OEDelegate.h */,
@@ -978,6 +982,7 @@
 		1005E46D01005E46D01005E4 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				31DDA7481226B3CF00E9EBA7 /* LightRenderer.cpp */,
 				31D34755122151F800106C84 /* iOSTouch.cpp */,
 				10064CE6010064CE6010064C /* iOSEngine.mm */,
 				10064EE2010064EE2010064E /* OEDelegate.mm */,
@@ -2333,6 +2338,7 @@
 				10065AAB010065AAB010065A /* RenderCanvas.cpp in Sources */,
 				31AAC1A8121867B600C9EF35 /* OpenGLES2Shader.cpp in Sources */,
 				31D34756122151F800106C84 /* iOSTouch.cpp in Sources */,
+				31DDA74A1226B3CF00E9EBA7 /* LightRenderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2713,9 +2719,7 @@
 		100605780100605780100605 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphonesimulator3.2;
 				SYMROOT = /Users/ptx/Projects/OE/OEIPhone/Xcode/build;
 			};
