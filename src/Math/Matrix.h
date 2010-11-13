@@ -318,9 +318,10 @@ public:
      * NOTE: Only works on 3*3 matrices.
      */
     Matrix <M,N,T> GetTranspose() const {
-        Matrix<N,M,T> r(*this);
-        r.Transpose();
-        return r;
+        BOOST_STATIC_ASSERT(M==N&&M==3);
+        return Matrix<M,N,T>(elm[0][0],elm[1][0],elm[2][0],
+                             elm[0][1],elm[1][1],elm[2][1],
+                             elm[0][2],elm[1][2],elm[2][2]);
     }
 
     /**
