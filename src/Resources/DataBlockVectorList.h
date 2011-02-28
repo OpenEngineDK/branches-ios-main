@@ -10,9 +10,11 @@
 /**
  * A list of usable vectors for data block math operations.
  */
-VECTOR(4, unsigned char)
+// VECTOR(4, unsigned char)
+
 
 VECTOR(1, unsigned int)
+VECTOR(1, short unsigned int)
 
 VECTOR(2, float)
 VECTOR(3, float)

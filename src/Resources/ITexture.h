@@ -12,6 +12,7 @@
 
 #include <Resources/Types/ResourceTypes.h>
 #include <Resources/ISerializable.h>
+#include <Logging/Logger.h>
 
 namespace OpenEngine {
     namespace Resources {
