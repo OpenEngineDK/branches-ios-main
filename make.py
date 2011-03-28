@@ -123,18 +123,13 @@ def cleandeps():
     os.rmdir(deps_dir)
 
 def make(target):
-    """
-    <other>       -- forwarded to make in the build directory
-    """
-    os.chdir("Xcode")
-    execute("xcodebuild -target iOEPhone")
-    # prepare()
-    # owd = os.getcwd()
-    # os.chdir(build_dir)
-    # if not path.isfile(path.join(build_dir, "Makefile")):
-    #     sys_exec_cmake()
-    # sys_exec_make(target)
-    # os.chdir(owd)
+    prepare()
+    owd = os.getcwd()
+    os.chdir(build_dir)
+    if not path.isfile(path.join(build_dir, "Makefile")):
+        sys_exec_cmake()
+    sys_exec_make(target)
+    os.chdir(owd)
 
 def prepare():
     if not path.isdir(build_dir):
